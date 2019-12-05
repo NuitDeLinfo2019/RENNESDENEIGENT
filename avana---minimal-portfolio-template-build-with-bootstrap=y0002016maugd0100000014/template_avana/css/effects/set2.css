@@ -56,7 +56,9 @@
 
 	padding:0;
 
-	color: #000;
+	color: #FFF;
+
+	text-shadow: 3px 3px 3px #000000;
 
 	text-transform: uppercase;
 
@@ -124,7 +126,9 @@
 
 	word-spacing: -0.15em;
 
-	font-weight:400; color:#000;
+	font-weight:400; color:#FFF;
+
+	text-shadow: 3px 3px 3px #000000;
 
 }
 
