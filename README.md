@@ -9,5 +9,11 @@ L'équipe a décidé de relever les défis :</br>
   • INNOV' dans TA pratique SPORTIVE</br>
   • Félindra ! Tête de tigre (responsive)</br>
 
- 
-
+## __Rendus__
+### __Defi de la nuit :__ 	
+### __ATOS 404 GAME FOUND :__ 
+### __Technology & Strategy :__ 
+### __Coddity :__ 
+### __Decathlon :__
+PDF disponible dans le dossier /decathlon
+### __Felindra :__ 
