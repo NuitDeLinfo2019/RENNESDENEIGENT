@@ -11,3 +11,6 @@ L'équipe a décidé de relever les défis :</br>
 
 ## __Rendus__
 Rendus attendus disponibles dans le dossier /Rendus spécifique.
+
+### __Instructions défi Rickroll moi pour une bonne cause__
+On accède à la vidéo en passant par le menu (accessible en cliquant sur les 3 traits en haut à droite), puis en cliquant sur l'onglet "FUN :)"
