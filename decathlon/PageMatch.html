@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+ <div class="jumbotron text-left" style="margin-bottom:0" >
+    <h1>DECA'LONS</h1>
+</div>
+
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text">
+    </form>
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Localisation">
+        <button class="btn btn-warning" type="submit">Rechercher</button>
+    </form>
+</nav>
+
+
+
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-4">
+                <div id="cse-search-results"></div> <script type="text/javascript"> var googleSearchIframeName = "cse-search-results"; var googleSearchFormName = "cse-search-box"; var googleSearchFrameWidth = 795; var googleSearchDomain = "www.google.fr"; var googleSearchPath = "/cse"; </script> <script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script> 
+
+        </div>
+        <div class="col-sm-8">
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title></title>
+                <style>
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    #map {
+                        height: 500px;
+                        width: 100%;
+                    }
+                </style>
+
+            </head>
+
+            <body>
+
+                <div id="map"></div>
+
+                <script>
+                    function initMap() {
+                        var location = {
+                            lat: 48.046763,
+                            lng: -1.743128
+                        };
+                        var map = new google.maps.Map(document.getElementById("map"), {
+                            zoom: 12,
+                            center: location
+                        });
+                    }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7e99wsXeaEulKkMOuF9_atHJV7WfD-gQ&callback=initMap"></script>
+
+
+
+
+
+            </body>
+
+            </html>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

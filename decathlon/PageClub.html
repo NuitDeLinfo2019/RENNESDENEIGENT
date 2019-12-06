@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <link rel="stylesheet" href="./style3.css">
+    <!-- bootstrap -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- responsive -->
+
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    
+    <div class="test">
+        <h1>DECA'LONS</h1>
+    </div>
+    <br>
+
+   <div class="Annonce">
+        <h2>TROUVE TON CLUB</h2>
+    </div>
+    
+    
+
+    <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+            <h4>
+                Selection de votre sport
+            </h4>
+            <h6>
+                    <select name="Sports">
+                            <option value="Football">Football</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Running">Running</option>
+                            <option value="Rugby">Rugby</option>
+                            <option value="Escrime">Escrime</option>
+                            <option value="Tennis">Tennis</option>
+                            <option value="Hockey Subaquatique">Hockey Subaquatique</option>
+                    </select>
+            </h6>
+            </div>
+
+            <div class="col-sm-8">
+                    
+                    <div id="wrapper">
+                        <h4>
+                                Club de sport proche de chez vous
+                        </h4>
+                        <button class="btn btn-success" id="location-button" type="submit">Search</button>       
+                    </div>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="styles.css">
+                    </head>
+                    <body>
+                    <div id="navbar"><span>Localisation</span></div>
+                    <div id="output"></div>
+                    
+                    <script>
+                            $('#location-button').click(function(){
+                          
+                              if (navigator.geolocation) {
+                                  navigator.geolocation.getCurrentPosition(function(position){
+                                    console.log(position);
+                                    $.get( "http://maps.googleapis.com/maps/api/geocode/json?latlng="+ position.coords.latitude + "," + position.coords.longitude +"&sensor=false", function(data) {
+                                      console.log(data);
+                                    })
+                                    var img = new Image();
+                                    img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," + position.coords.longitude + "&zoom=14&size=400x300&sensor=false&key=AIzaSyD7e99wsXeaEulKkMOuF9_atHJV7WfD-gQ";
+                                    $('#output').html(img);
+                                  });
+                                   
+                              }
+                            });
+                    </script>
+                   
+            </div>
+           
+
+    </div>
+            
+
+    
+</body>
+
+</html>
