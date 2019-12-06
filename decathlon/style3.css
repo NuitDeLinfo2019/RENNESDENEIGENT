@@ -1,0 +1,39 @@
+.test {
+    height: 75px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 127, 201, 0.7);
+    min-width: 200px;
+    display: flex;
+    border-radius: 15px;
+}
+
+h1{
+    width: 25%;
+    text-align: center;
+}
+
+navbar{
+    text-align: center;
+}
+
+h2,h4,h5,h6 {
+    text-align: center;
+    width: 100%;
+    
+}
+button{
+    position: relative;
+}
+.col-sm-8{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:100%;
+}
+.col-sm-3{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:100%;
+    background: rgba(0, 127, 201, 0.7);
+    border-radius: 25px;
+}
+
