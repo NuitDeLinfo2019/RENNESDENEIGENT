@@ -156,9 +156,9 @@ a {
 
 a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
-::-moz-selection {background-color:#fb5353;color:#fff;}
+::-moz-selection {background-color:#344168;color:#fff;}
 
-::selection {background-color: #fb5353;color: #fff;}
+::selection {background-color: #344168;color: #fff;text-shadow: none;}
 
 @font-face {font-family: 'Open Sans', sans-serif;}
 
@@ -180,7 +180,7 @@ header[role="header"] nav ul > li{ font-weight:800; font-size:42px; display:bloc
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#404040}
 
-header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#fb5353}
+header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#344168}
 
 header[role="header"] nav #menu-button {width: 31px;font-size: 0;float: right;height: 19px;position: relative; z-index:70;
 
@@ -222,7 +222,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[rol
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:46px; line-height:53px; color:#404040; font-weight:800}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#fb5353; padding-bottom:15px}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#344168; padding-bottom:15px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:20px; line-height:30px; color:#454545}
 
